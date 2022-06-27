@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import TabButton from './components/TabButton';
 import TravelCard from './components/TravelCard';
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
+    <div>
+      <div>
+        <TabButton/>
+        <TabButton/>
+        <TabButton/>
+        <TabButton/>
+        <TabButton/>
+      </div>
+      <div>
         <TravelCard/>
         <TravelCard/>
         <TravelCard/>

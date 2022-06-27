@@ -1,0 +1,9 @@
+.Tag {
+    display: inline-block;
+    margin: 1em;
+}
+.Button {
+    background-color: aqua;
+    font-size: 1em;
+    height: 2em;
+}

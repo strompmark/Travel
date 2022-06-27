@@ -1,6 +1,9 @@
 .Card {
-    background-color: black;
-    color: white;
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 2px;
     display: inline-block;
+    font-style: italic;
     margin-left: 1em;
+    margin-right: 1em;
 }
