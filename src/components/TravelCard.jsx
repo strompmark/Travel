@@ -1,16 +1,16 @@
 import "./TravelCard.css";
 
-function TravelCard() {
+function TravelCard(props) {
   return (
     <div className="Card">
       <div>
-        1. Helyszín
+      <img className="Size" src={props.tartalom.kep}/>
       </div>
-      <div>
-        2. Helyszín
+      <div className="Center">
+        {props.tartalom.nev}
       </div>
-      <div>
-        3. Helyszín
+      <div className="Center">
+        {props.tartalom.leiras}
       </div>
     </div>
   );

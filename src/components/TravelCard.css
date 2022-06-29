@@ -1,9 +1,16 @@
 .Card {
-    background-color: aquamarine;
-    border-style: solid;
-    border-width: 2px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
     font-style: italic;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 1em;
+}
+.Size {
+    height: fit-content;
+    width: 10em;
+}
+.Center {
+    text-align: center;
 }

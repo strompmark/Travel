@@ -1,23 +1,11 @@
-import TabButton from './components/TabButton';
-import TravelCard from './components/TravelCard';
+import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
   return (
     <div>
-      <div>
-        <TabButton/>
-        <TabButton/>
-        <TabButton/>
-        <TabButton/>
-        <TabButton/>
-      </div>
-      <div>
-        <TravelCard/>
-        <TravelCard/>
-        <TravelCard/>
-        <TravelCard/>
-        <TravelCard/>
-      </div>
+      <Header/>
+      <Content/>
     </div>
   );
 }
