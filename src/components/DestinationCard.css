@@ -1,0 +1,23 @@
+.Card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+}
+.CardSize {
+    height: fit-content;
+    width: 10em;
+}
+.Fline {
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.Sline {
+    font-style: italic;
+    text-align: center;
+}

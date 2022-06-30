@@ -1,9 +1,9 @@
+.Button {
+    background-color: aquamarine;
+    font-size: 1em;
+    height: 2em;
+}
 .Tag {
     display: inline-block;
     margin: 1em;
-}
-.Button {
-    background-color: aqua;
-    font-size: 1em;
-    height: 2em;
 }
