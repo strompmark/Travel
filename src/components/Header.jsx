@@ -1,13 +1,15 @@
 import TabButton from "./TabButton";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return(
         <div>
-            <TabButton/>
-            <TabButton/>
-            <TabButton/>
-            <TabButton/>
-            <TabButton/>
+            <Link to="/">
+                <TabButton title="Home"/>
+            </Link>
+            <Link to="/search">
+                <TabButton title="Search"/>
+            </Link>
         </div>
     );
 }

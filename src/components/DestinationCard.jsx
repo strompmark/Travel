@@ -1,15 +1,15 @@
-import "./DestinationCard.css";
+import style from "./DestinationCard.module.css"
 
 function DestinationCard(props) {
     return(
-        <div className="Card">
+        <div className={style.Card}>
             <div>
-                <img className="CardSize" src={props.substance.picture}/>
+                <img className={style.CardSize} src={props.substance.picture}/>
             </div>
-            <div className="Fline">
+            <div className={style.Fline}>
                 {props.substance.name}
             </div>
-            <div className="Sline">
+            <div className={style.Sline}>
                 {props.substance.date}
             </div>
         </div>

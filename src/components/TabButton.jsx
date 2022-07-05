@@ -1,9 +1,9 @@
 import "./TabButton.css";
 
-function TabButton() {
+function TabButton(props) {
     return (
         <div className="Tag">
-            <button className="Button">Kontinens</button>
+            <button className="Button">{props.title}</button>
         </div>
     );
 }
