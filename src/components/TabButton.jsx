@@ -1,9 +1,9 @@
-import "./TabButton.css";
+import Styles from "./TabButton.module.css";
 
 function TabButton(props) {
     return (
-        <div className="Tag">
-            <button className="Button">{props.title}</button>
+        <div className={Styles.Tag}>
+            <button className={Styles.Button}>{props.title}</button>
         </div>
     );
 }

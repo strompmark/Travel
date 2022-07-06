@@ -1,0 +1,9 @@
+.EntirePage {
+    background-color: aquamarine;
+    height: 300px;
+    padding-top: 20%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    width: 100%;
+}

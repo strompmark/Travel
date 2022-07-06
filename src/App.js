@@ -1,7 +1,8 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Content from './components/Content';
+import Error from './components/Error';
 import Header from './components/Header';
 import Home from './components/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Header/>
         <Routes >
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/search' element={<Content/>}/>
+          <Route exact path='/Error' element={<Error/>}/>
+          <Route exact path='/Search' element={<Content/>}/>
         </Routes >
       </BrowserRouter >
     </div>

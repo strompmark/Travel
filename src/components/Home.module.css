@@ -1,0 +1,21 @@
+.Background {
+    background-color: aquamarine;
+}
+.Description {
+    font-style: italic;
+    margin-top: 25%;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+}
+.Image {
+    height: fit-content;
+    width: 50%;
+}
+.Title {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    width: 50%;
+}

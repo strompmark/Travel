@@ -1,13 +1,17 @@
-import TabButton from "./TabButton";
 import { Link } from 'react-router-dom';
+import Styles from "./Header.module.css";
+import TabButton from "./TabButton";
 
 function Header() {
     return(
-        <div>
+        <div className={Styles.Center}>
             <Link to="/">
                 <TabButton title="Home"/>
             </Link>
-            <Link to="/search">
+            <Link to="/Error">
+                <TabButton title="Error"/>
+            </Link>
+            <Link to="/Search">
                 <TabButton title="Search"/>
             </Link>
         </div>

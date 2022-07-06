@@ -1,15 +1,15 @@
-import styles from "./ContinentCard.module.css";
+import Styles from "./ContinentCard.module.css";
 
 function ContinentCard(props) {
   return (
-    <div className={styles.Card}>
+    <div className={Styles.Card}>
       <div>
-      <img className={styles.CardSize} src={props.substance.picture}/>
+        <img className={Styles.CardSize} src={props.substance.picture}/>
       </div>
-      <div className={styles.Fline}>
+      <div className={Styles.Fline}>
         {props.substance.name}
       </div>
-      <div className={styles.Sline}>
+      <div className={Styles.Sline}>
         {props.substance.description}
       </div>
     </div>
