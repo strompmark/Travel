@@ -8,9 +8,6 @@ function Header() {
             <Link to="/">
                 <TabButton title="Home"/>
             </Link>
-            <Link to="/Error">
-                <TabButton title="Error"/>
-            </Link>
             <Link to="/Search">
                 <TabButton title="Search"/>
             </Link>

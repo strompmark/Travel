@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter >
         <Header/>
         <Routes >
+          <Route path='*' element={<Error/>}/>
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/Error' element={<Error/>}/>
           <Route exact path='/Search' element={<Content/>}/>
         </Routes >
       </BrowserRouter >
